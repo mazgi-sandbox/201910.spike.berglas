@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  berglas:
+    build:
+      context: Dockerfile.d/berglas
+    working_dir: /workspace
+    volumes:
+      - .:/workspace:ro
